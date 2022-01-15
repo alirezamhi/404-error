@@ -1,0 +1,60 @@
+/* Webfont: Yekan */
+@font-face {
+	font-family: 'Yekan';
+	src:	url('Yekan.eot'); /* IE9 Compat Modes */
+	src:	url('Yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('/Yekan-Font-master/Yekan.woff2') format('woff2'), /* Modern Browsers */
+			url('/Yekan-Font-master/Yekan.woff') format('woff'), /* Modern Browsers */
+			url('/Yekan-Font-master/') format('opentype'), /* Open Type Font */	
+			url('/Yekan-Font-master/Yekan.ttf') format('truetype'); /* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: auto;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Yekan ;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #151729;
+    background-image: url(/image/p404.png);
+}
+.content{
+    text-align: center;
+}
+h2{
+    font-size: 22vmax;
+    color: white;
+   
+}
+h4{
+    font-size:4vmax;
+    color: white;
+     margin-top: -20%;
+}
+p{
+    color: white;
+    margin: 6% 0 10% 0;
+}
+a{
+    color: white;
+    padding: 1%;
+    background-color: blueviolet;
+    text-decoration: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+

@@ -34,12 +34,12 @@ body{
 h2{
     font-size: 22vmax;
     color: white;
-   
+    margin-top: -18%;
 }
 h4{
     font-size:4vmax;
     color: white;
-     margin-top: -20%;
+    margin-top: -10%;
 }
 p{
     color: white;
